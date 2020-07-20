@@ -1,0 +1,1 @@
+ps aux|grep -v grep --color=auto| grep $1 --color=auto
