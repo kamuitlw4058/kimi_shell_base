@@ -1,0 +1,15 @@
+mkdir $1
+mkdir $1/bin
+mkdir $1/logs
+mkdir $1/logs/dev
+mkdir $1/logs/release
+mkdir $1/data
+
+
+base_path=$(cd `dirname $0`; pwd)
+cp ${base_path}/templete/* $1/bin/
+chmod 777 $1/bin/
+
+
+
+
