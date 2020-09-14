@@ -1,0 +1,1 @@
+ssh -i C:/vscode_project/kimi_shell_base/bin/basestone/key/wangcenhan-jumpserver.pem wangcenhan@jms.xiaoxiangyoupin.com -p2222
