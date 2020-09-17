@@ -1,0 +1,3 @@
+base_path=$(cd `dirname $0`; pwd)
+cd $base_path
+ssh -p2222 -i basestone/key/wangcenhan-jumpserver.pem   wangcenhan@jms.xiaoxiangyoupin.com 
